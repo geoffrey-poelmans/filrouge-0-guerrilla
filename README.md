@@ -14,7 +14,7 @@ Réalisation de l'exercice : [Fil Rouge :"Guerrilla"](https://github.com/becodeo
 [BeCode](https://www.becode.org/)
 
 ### A quoi ça ressemble ?  
-![Réalisation finale](/images/sc.png)
+![Réalisation finale](/images/sc.jpg)
 
 ### La progression ?  
 Projet terminé.
