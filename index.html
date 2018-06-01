@@ -165,12 +165,15 @@
 								<form>
 								 <input type="text" name="nom" placeholder="Nom"  style="width:300px;"><br><br>
 								 <input type="text" name="email" placeholder="E-mail" style="width:300px;"><br><br>
-								 <input type="text" name="sujet" placeholder="Sujet" style="width:300px;"><br><br>
-									<input type="radio" name="preference" value="Apprentissage" checked>Apprentissage<br>
-									<input type="radio" name="preference" value="Perfectionnement/loisirs">Perfectionnement/loisirs<br>
-									<input type="radio" name="preference" value="Compétitions">Compétitions <br><br>
-								<textarea name="message" placeholder="Votre message ..." style="width:300px; height:200px"></textarea><br><br>
-								<input type="submit"  value="Envoyer son message">
+						  	 <input type="text" name="sujet" placeholder="Sujet" style="width:300px;"><br><br>
+								 <input type="radio" name="preference" id="apprentissage" value="Apprentissage" checked>
+								 <label for="apprentissage">Apprentissage</label><br>
+									<input type="radio" name="preference" id="perfectionnement" value="Perfectionnement/loisirs">
+									<label for="perfectionnement">Perfectionnement/loisirs</label><br>
+									<input type="radio" name="preference" id="competition" value="Compétitions">
+									<label for="competition">Compétitions</label><br><br>
+									<textarea name="message" placeholder="Votre message ..." style="width:300px; height:200px"></textarea><br><br>
+									<input type="submit"  value="Envoyer son message">
 								</form>
 							</div>
 						</div>
